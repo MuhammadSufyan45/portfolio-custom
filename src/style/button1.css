@@ -1,0 +1,27 @@
+.button1 {   
+    color: black; 
+    background-color: white; 
+    width: 100px; 
+    height: 30px; 
+    padding-top: 6px;
+    padding-bottom: 6px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    border: 2px solid; 
+    font-size: 0.875rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button1:hover {
+    background-color: transparent; 
+    color: white; 
+}
+
+/* Responsive styles */
+@media (min-width: 640px) {
+    .button1 {
+        font-size: 1rem; 
+        width: auto; 
+        height: 40px;
+    }
+}

@@ -1,0 +1,24 @@
+.button {
+    color: white;
+    width: 100px;
+    height: 28px;
+    padding: 4px 6px;
+    border: 2px solid white;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Responsive styles */
+@media (min-width: 640px) { /* sm: */
+    .button {
+        width: 120px;
+        height: 38px;
+        padding: 0; /* Reset padding for larger screens */
+        font-size: 1rem; /* Adjust text size for larger screens */
+    }
+}

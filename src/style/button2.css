@@ -1,0 +1,25 @@
+.button2 {
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    padding: 4px 6px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.885rem; /* 14px */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  @media (min-width: 640px) { /* sm breakpoint */
+    .button2 {
+      font-size: 1rem; /* 16px */
+      width: 120px;
+      height: 40px;
+    }
+  }
+  
