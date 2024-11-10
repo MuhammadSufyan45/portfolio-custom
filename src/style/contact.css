@@ -67,6 +67,7 @@ i {
 
 .phone {
     display: none;
+    text-decoration-line: none;
 }
 
 
@@ -160,25 +161,28 @@ i {
     }
 
     .insta {
-        display: none;        
+        display: none;       
     }
 
     .linkedin {
         display: flex;
         flex-direction: row;
         gap: 16px;
+        text-decoration-line: none;
     }
     
     .facebook {
         display: flex;
         flex-direction: row;
         gap: 16px;
+        text-decoration-line: none;
     }
 
     .x {
         display: flex;
         flex-direction: row;
         gap: 16px;
+        text-decoration-line: none;
     }
 
     .social span {

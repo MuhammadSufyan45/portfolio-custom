@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import "../style/header.css";
 import React from "react";
 import { useState } from "react";
@@ -11,11 +12,11 @@ export default function Header(){
       <div className="desktop-menu">
         <div className="logo">Portfolio</div>
         <div className="menu-items">
-          <a href='#home' className="menu-link">Home</a>
+          <Link href='/hero' className="menu-link">Home</Link>
 
-          <a href='#about' className="menu-link">About</a>
+          <Link href='/about' className="menu-link">About</Link>
 
-          <a href='#contact' className="menu-link">Contact</a>
+          <Link href='/contact' className="menu-link">Contact</Link>
         </div>
         <button className="hire-button">Hire Me!</button>
       </div>
@@ -35,9 +36,9 @@ export default function Header(){
       {/* Mobile Menu */}
       {isOpen && (
         <div className="mobile-dropdown">
-          <a href="#home" className="mobile-link">Home</a>
-          <a href="#about" className="mobile-link">About</a>
-          <a href="#contact" className="mobile-link">Contact</a>
+          <Link href="/hero" className="mobile-link">Home</Link>
+          <Link href="/about" className="mobile-link">About</Link>
+          <Link href="/contact" className="mobile-link">Contact</Link>
         </div>
       )}
     </nav>
