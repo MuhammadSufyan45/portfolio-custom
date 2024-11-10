@@ -16,7 +16,7 @@ export default function About() {
                 </div>
                 <div className="about-text">
                     <p className="about-description">
-                        "Myself <b>Muhammad Sufyan</b>, a Pakistani Intermediate student living in Karachi. I have interest in the tech world and am currently enrolled in <b>GIAIC</b>, a great initiative taken by the governor of Sindh province. I am always eager to learn and contribute to my society and country. Thanks"
+                    &quot;Myself <b>Muhammad Sufyan</b>, a Pakistani Intermediate student living in Karachi. I have interest in the tech world and am currently enrolled in <b>GIAIC</b>, a great initiative taken by the governor of Sindh province. I am always eager to learn and contribute to my society and country. Thanks&quot;
                     </p>
                     <div className="about-skills-hobbies">
                         <div className="skills">
