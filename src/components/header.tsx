@@ -36,9 +36,9 @@ export default function Header(){
       {/* Mobile Menu */}
       {isOpen && (
         <div className="mobile-dropdown">
-          <Link href="/hero" className="mobile-link">Home</Link>
-          <Link href="/about" className="mobile-link">About</Link>
-          <Link href="/contact" className="mobile-link">Contact</Link>
+          <Link href="/hero" className="mobile-link" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link href="/about" className="mobile-link" onClick={() => setIsOpen(false)}>About</Link>
+          <Link href="/contact" className="mobile-link" onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       )}
     </nav>
